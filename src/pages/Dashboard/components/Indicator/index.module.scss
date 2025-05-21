@@ -1,0 +1,19 @@
+@use 'styles/utils/variables.scss' as *;
+@use 'styles/shared/typographies.scss' as *;
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.title {
+  @extend %info-text;
+}
+
+.bar {
+  background-color: $secondary-text-color;
+  border-radius: 0.2rem;
+  height: 1.5rem;
+  transition: width 0.3s;
+}
