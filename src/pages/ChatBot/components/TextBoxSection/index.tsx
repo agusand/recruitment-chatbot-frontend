@@ -8,13 +8,13 @@ export default function TextBoxSection() {
   return (
     <div className={styles.section}>
       <TextField
-        placeholder="Ingresá respuesta"
+        placeholder="Enter your answer"
         onSubmit={onChatFormSubmit}
         name={INPUT_NAME}
         min={MIN_LENGTH}
       />
       <p className={styles.infoText}>
-        Ingresá cada respuesta en un único envío de al menos {MIN_LENGTH} caracteres
+        Enter each answer in a single submission of at least {MIN_LENGTH} characters
       </p>
     </div>
   );
