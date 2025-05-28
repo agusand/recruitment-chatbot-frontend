@@ -43,8 +43,8 @@ export default function useMessagesManager(user: User) {
       emitter: 'bot',
       children: (
         <p>
-          Hi, how are you? Welcome {user.first_name} to the first interview for MELI. I will ask you
-          some questions to get to know you better.
+          Hi, how are you? Welcome {user.first_name} to the first interview for{' '}
+          {import.meta.env.VITE_COMPANY}. I will ask you some questions to get to know you better.
         </p>
       ),
     };

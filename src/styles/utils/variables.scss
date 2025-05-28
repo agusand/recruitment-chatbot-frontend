@@ -1,15 +1,15 @@
 // Colors
 
-$main-component-color20: #fff15920;
-$main-component-color40: #fff15940;
-$main-component-color60: #fff15960;
-$main-component-color80: #fff15980;
-$main-component-color: #fff159;
+$main-component-color20: #596aff20;
+$main-component-color40: #596aff40;
+$main-component-color60: #596aff60;
+$main-component-color80: #596aff80;
+$main-component-color: #596aff;
 
 $secondary-component-color: #ececec;
 $tertiary-component-color: #cecece;
-$main-text-color: #000000;
-$secondary-text-color: #3483fa;
+$main-text-color: #ffffff;
+$secondary-text-color: #fa8334;
 $background-color: #ffffff;
 
 // Sizes
@@ -19,7 +19,7 @@ $logo-height: 5.2rem;
 $header-height: calc(2 * $bars-padding + $logo-height);
 
 // Fonts
-$font-roboto: "Roboto";
+$font-roboto: 'Roboto';
 
 // Misc
-$z-indexes: "loading", "content";
+$z-indexes: 'loading', 'content';

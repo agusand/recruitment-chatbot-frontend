@@ -33,7 +33,8 @@ The app will be available at [http://localhost:5173](http://localhost:5173)
 Create a `.env` file in the root with the following variables:
 
 ```env
-VITE_API_BASE_URL=http://localhost:4000/api
+VITE_API_URL=http://localhost:3000
+VITE_COMPANY=OurCompany
 ```
 
 > You can adjust this depending on where your backend is hosted.
@@ -64,17 +65,16 @@ src/
 
 ## 🧪 TODO
 
+- [ ] Create landing page
 - [ ] Implement unit tests with React Testing Library + Vitest or Jest
 - [ ] Add error handling for failed API responses
 - [ ] Implement CI via GitHub Actions
 - [ ] Add support for loading indicators and message delays
-- [ ] Add form to define role-based questions (future admin view)
-- [ ] Improve accessibility and keyboard navigation
-- [ ] Add user feedback / scoring summary screen
+- [ ] Add form to define role-based questions and positions (future admin view)
 
 ## 📸 Screenshots
 
-_Add a screenshot of the chatbot UI here (e.g. `/public/chat-sample.png`)_
+![Chatbot UI Screenshot](./public/chat_sample.png)
 
 ## 🧾 License
 
