@@ -4,49 +4,78 @@ This is the frontend of an intelligent recruitment assistant. It simulates a cha
 
 ## ✨ Features
 
-- Conversational chatbot UI for candidate interaction  
-- Dynamic rendering of interview questions  
-- Communication with a backend API for scoring responses  
-- Responsive layout with a clean and minimal design  
+- Conversational chatbot UI for candidate interaction
+- Dynamic rendering of interview questions from backend
+- API integration for scoring candidate responses
+- Responsive and accessible layout
+- Modular codebase prepared for scaling and theming
 
 ## 🛠 Tech Stack
 
-- React + TypeScript  
-- Vite  
-- SCSS Modules  
-- ESLint + Prettier  
+- [React](https://reactjs.org/) + [TypeScript](https://www.typescriptlang.org/)
+- [Vite](https://vitejs.dev/) for fast builds and dev server
+- SCSS Modules for scoped styling
+- ESLint + Prettier for code quality
 
 ## 🚀 Getting Started
 
 ```bash
-npm install  
+git clone https://github.com/your-username/recruitment-chatbot-frontend.git
+cd recruitment-chatbot-frontend
+npm install
 npm run dev
 ```
 
-The app will be available at [http://localhost:3000](http://localhost:3000)
+The app will be available at [http://localhost:5173](http://localhost:5173)
 
-## 📸 Screenshots
+## 🔌 Environment Variables
 
-_Add a screenshot of the chatbot UI here (e.g. `/public/chat-sample.png`)._
+Create a `.env` file in the root with the following variables:
 
-## 📁 Suggested Folder Structure
+```env
+VITE_API_URL=http://localhost:3000
+VITE_COMPANY=OurCompany
+```
+
+> You can adjust this depending on where your backend is hosted.
+
+## 📁 Project Structure
 
 ```
 src/
-├── components/
-├── views/
-├── hooks/
-├── services/
-└── styles/
+├── components/      # Reusable UI components
+├── views/           # Page-level views or chat sections
+├── hooks/           # Custom React hooks
+├── services/        # API clients and utilities
+├── styles/          # Global and modular styles
+└── assets/          # Images, icons, etc.
 ```
+
+## 📜 Scripts
+
+| Script            | Description                   |
+| ----------------- | ----------------------------- |
+| `npm run dev`     | Starts the Vite dev server    |
+| `npm run build`   | Builds the app for production |
+| `npm run preview` | Serves the built app locally  |
+| `npm run lint`    | Runs ESLint for code linting  |
+| `npm run format`  | Formats code with Prettier    |
+| `npm run test`    | Runs unit tests with Vitest   |
+| `npm run prepare` | Sets up Husky git hooks       |
 
 ## 🧪 TODO
 
-- [ ] Add unit tests using React Testing Library  
-- [ ] Improve UX animations and transitions  
-- [ ] Add mobile refinements and dark mode  
-- [ ] Add CI with GitHub Actions
+- [ ] Create landing page
+- [ ] Implement unit tests with React Testing Library + Vitest or Jest
+- [ ] Add error handling for failed API responses
+- [ ] Implement CI via GitHub Actions
+- [ ] Add support for loading indicators and message delays
+- [ ] Add form to define role-based questions and positions (future admin view)
 
-## 📄 License
+## 📸 Screenshots
+
+![Chatbot UI Screenshot](./public/chat_sample.png)
+
+## 🧾 License
 
 MIT

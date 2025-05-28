@@ -1,0 +1,16 @@
+@use 'styles/utils/variables.scss' as *;
+
+.section {
+  background-color: $secondary-component-color;
+  height: 80%;
+  overflow-y: auto;
+}
+
+.messagesContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  justify-content: flex-end;
+  min-height: 100%;
+  padding: 10rem 15%;
+}
